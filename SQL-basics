@@ -1,0 +1,11 @@
+3.1     SELECT * FROM groups
+3.2     SELECT name FROM learners LIMIT 1;
+        SELECT email FROM learners LIMIT 1;
+        SELECT name AS learner_name FROM learners LIMIT 1
+
+4.1     update groups set start_date = "2022-03-10" where id = 2 AND 3;
+4.2     ALTER TABLE groups
+        ADD status varchar(255);
+
+5       DELETE FROM learners
+        WHERE id = 4;
